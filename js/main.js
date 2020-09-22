@@ -3,8 +3,14 @@ lista.push("uva");
 console.log(lista);
 lista.pop(1);
 console.log(lista);
+console.log(lista + lista);
 
+var fruta = {nome: "maça",cor: "vermelha"};
+console.log(fruta.nome);
 
+// lista de dicionário
+var frutas = [{nome: "banana", cor:"amarelo"}, {nome:"uva", cor: "roxa"}];
+alert(frutas[1].nome);
 
 /*
 var nome = "Maite Renzano";
